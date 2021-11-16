@@ -1,0 +1,884 @@
+[I][GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[I][GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[I][GIN-debug] GET    /api/static/*filepath     --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[I][GIN-debug] HEAD   /api/static/*filepath     --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[I][GIN-debug] GET    /api/ping                 --> 2022/ginseckill/web/webController.Ping (5 handlers)
+[I][GIN-debug] GET    /api/auth/ping            --> 2022/ginseckill/web/webAuthController.Ping (6 handlers)
+[I][GIN-debug] GET    /manager/ping             --> 2022/ginseckill/backend/backendController.Ping (5 handlers)
+[I][GIN-debug] POST   /manager/sign/up          --> 2022/ginseckill/backend/backendController.InsertConsumer (5 handlers)
+[I][GIN-debug] GET    /manager/auth/ping        --> 2022/ginseckill/backend/backendAuthController.Ping (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/list  --> 2022/ginseckill/backend/backendAuthController.GoodsList (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/update --> 2022/ginseckill/backend/backendAuthController.GoodsUpdate (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/add   --> 2022/ginseckill/backend/backendAuthController.InsertGoods (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/remove --> 2022/ginseckill/backend/backendAuthController.DeleteGoodsOne (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/select --> 2022/ginseckill/backend/backendAuthController.SelectOneGoods (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/list  --> 2022/ginseckill/backend/backendAuthController.OrderList (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/update --> 2022/ginseckill/backend/backendAuthController.OrderUpdate (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/add   --> 2022/ginseckill/backend/backendAuthController.InsertOrder (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/remove --> 2022/ginseckill/backend/backendAuthController.DeleteOrderOne (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/select --> 2022/ginseckill/backend/backendAuthController.SelectOneOrder (6 handlers)
+[I][GIN-debug] Listening and serving HTTP on 0.0.0.0:8090
+[I][GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[I][GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[I][GIN-debug] GET    /api/static/*filepath     --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[I][GIN-debug] HEAD   /api/static/*filepath     --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[I][GIN-debug] GET    /api/ping                 --> 2022/ginseckill/web/webController.Ping (5 handlers)
+[I][GIN-debug] GET    /api/auth/ping            --> 2022/ginseckill/web/webAuthController.Ping (6 handlers)
+[I][GIN-debug] GET    /manager/ping             --> 2022/ginseckill/backend/backendController.Ping (5 handlers)
+[I][GIN-debug] POST   /manager/sign/up          --> 2022/ginseckill/backend/backendController.InsertConsumer (5 handlers)
+[I][GIN-debug] GET    /manager/auth/ping        --> 2022/ginseckill/backend/backendAuthController.Ping (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/list  --> 2022/ginseckill/backend/backendAuthController.GoodsList (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/update --> 2022/ginseckill/backend/backendAuthController.GoodsUpdate (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/add   --> 2022/ginseckill/backend/backendAuthController.InsertGoods (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/remove --> 2022/ginseckill/backend/backendAuthController.DeleteGoodsOne (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/select --> 2022/ginseckill/backend/backendAuthController.SelectOneGoods (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/list  --> 2022/ginseckill/backend/backendAuthController.OrderList (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/update --> 2022/ginseckill/backend/backendAuthController.OrderUpdate (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/add   --> 2022/ginseckill/backend/backendAuthController.InsertOrder (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/remove --> 2022/ginseckill/backend/backendAuthController.DeleteOrderOne (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/select --> 2022/ginseckill/backend/backendAuthController.SelectOneOrder (6 handlers)
+[I][GIN-debug] Listening and serving HTTP on 0.0.0.0:8090
+[I][GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[I][GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[I][GIN-debug] GET    /api/static/*filepath     --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[I][GIN-debug] HEAD   /api/static/*filepath     --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[I][GIN-debug] GET    /api/ping                 --> 2022/ginseckill/web/webController.Ping (5 handlers)
+[I][GIN-debug] GET    /api/auth/ping            --> 2022/ginseckill/web/webAuthController.Ping (6 handlers)
+[I][GIN-debug] GET    /manager/ping             --> 2022/ginseckill/backend/backendController.Ping (5 handlers)
+[I][GIN-debug] POST   /manager/sign/up          --> 2022/ginseckill/backend/backendController.InsertConsumer (5 handlers)
+[I][GIN-debug] GET    /manager/auth/ping        --> 2022/ginseckill/backend/backendAuthController.Ping (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/list  --> 2022/ginseckill/backend/backendAuthController.GoodsList (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/update --> 2022/ginseckill/backend/backendAuthController.GoodsUpdate (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/add   --> 2022/ginseckill/backend/backendAuthController.InsertGoods (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/remove --> 2022/ginseckill/backend/backendAuthController.DeleteGoodsOne (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/select --> 2022/ginseckill/backend/backendAuthController.SelectOneGoods (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/list  --> 2022/ginseckill/backend/backendAuthController.OrderList (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/update --> 2022/ginseckill/backend/backendAuthController.OrderUpdate (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/add   --> 2022/ginseckill/backend/backendAuthController.InsertOrder (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/remove --> 2022/ginseckill/backend/backendAuthController.DeleteOrderOne (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/select --> 2022/ginseckill/backend/backendAuthController.SelectOneOrder (6 handlers)
+[I][GIN-debug] Listening and serving HTTP on 0.0.0.0:8090
+[I][GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[I][GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[I][GIN-debug] GET    /api/static/*filepath     --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[I][GIN-debug] HEAD   /api/static/*filepath     --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[I][GIN-debug] GET    /api/ping                 --> 2022/ginseckill/web/webController.Ping (5 handlers)
+[I][GIN-debug] GET    /api/auth/ping            --> 2022/ginseckill/web/webAuthController.Ping (6 handlers)
+[I][GIN-debug] GET    /manager/ping             --> 2022/ginseckill/backend/backendController.Ping (5 handlers)
+[I][GIN-debug] POST   /manager/sign/up          --> 2022/ginseckill/backend/backendController.InsertConsumer (5 handlers)
+[I][GIN-debug] GET    /manager/auth/ping        --> 2022/ginseckill/backend/backendAuthController.Ping (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/list  --> 2022/ginseckill/backend/backendAuthController.GoodsList (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/update --> 2022/ginseckill/backend/backendAuthController.GoodsUpdate (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/add   --> 2022/ginseckill/backend/backendAuthController.InsertGoods (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/remove --> 2022/ginseckill/backend/backendAuthController.DeleteGoodsOne (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/select --> 2022/ginseckill/backend/backendAuthController.SelectOneGoods (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/list  --> 2022/ginseckill/backend/backendAuthController.OrderList (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/update --> 2022/ginseckill/backend/backendAuthController.OrderUpdate (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/add   --> 2022/ginseckill/backend/backendAuthController.InsertOrder (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/remove --> 2022/ginseckill/backend/backendAuthController.DeleteOrderOne (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/select --> 2022/ginseckill/backend/backendAuthController.SelectOneOrder (6 handlers)
+[I][GIN-debug] Listening and serving HTTP on 0.0.0.0:8090
+[I][GIN] 2021/11/16 - 10:55:30 | 204 |       481.5µs |   192.168.1.102 | OPTIONS  "/manager/sign/up"
+[I][GIN] 2021/11/16 - 10:55:30 | 200 |    123.7141ms |   192.168.1.102 | POST     "/manager/sign/up"
+[I][GIN] 2021/11/16 - 11:05:54 | 200 |      56.679ms |   192.168.1.102 | POST     "/manager/sign/up"
+[I][GIN] 2021/11/16 - 11:08:18 | 200 |     42.4172ms |   192.168.1.102 | POST     "/manager/sign/up"
+[I][GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[I][GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[I][GIN-debug] GET    /api/static/*filepath     --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[I][GIN-debug] HEAD   /api/static/*filepath     --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[I][GIN-debug] GET    /api/ping                 --> 2022/ginseckill/web/webController.Ping (5 handlers)
+[I][GIN-debug] GET    /api/auth/ping            --> 2022/ginseckill/web/webAuthController.Ping (6 handlers)
+[I][GIN-debug] GET    /manager/ping             --> 2022/ginseckill/backend/backendController.Ping (5 handlers)
+[I][GIN-debug] POST   /manager/sign/up          --> 2022/ginseckill/backend/backendController.InsertConsumer (5 handlers)
+[I][GIN-debug] GET    /manager/auth/ping        --> 2022/ginseckill/backend/backendAuthController.Ping (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/list  --> 2022/ginseckill/backend/backendAuthController.GoodsList (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/update --> 2022/ginseckill/backend/backendAuthController.GoodsUpdate (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/add   --> 2022/ginseckill/backend/backendAuthController.InsertGoods (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/remove --> 2022/ginseckill/backend/backendAuthController.DeleteGoodsOne (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/select --> 2022/ginseckill/backend/backendAuthController.SelectOneGoods (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/list  --> 2022/ginseckill/backend/backendAuthController.OrderList (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/update --> 2022/ginseckill/backend/backendAuthController.OrderUpdate (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/add   --> 2022/ginseckill/backend/backendAuthController.InsertOrder (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/remove --> 2022/ginseckill/backend/backendAuthController.DeleteOrderOne (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/select --> 2022/ginseckill/backend/backendAuthController.SelectOneOrder (6 handlers)
+[I][GIN-debug] Listening and serving HTTP on 0.0.0.0:8090
+[I][GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[I][GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[I][GIN-debug] GET    /api/static/*filepath     --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[I][GIN-debug] HEAD   /api/static/*filepath     --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[I][GIN-debug] GET    /api/ping                 --> 2022/ginseckill/web/webController.Ping (5 handlers)
+[I][GIN-debug] GET    /api/auth/ping            --> 2022/ginseckill/web/webAuthController.Ping (6 handlers)
+[I][GIN-debug] GET    /manager/ping             --> 2022/ginseckill/backend/backendController.Ping (5 handlers)
+[I][GIN-debug] POST   /manager/sign/up          --> 2022/ginseckill/backend/backendController.InsertConsumer (5 handlers)
+[I][GIN-debug] GET    /manager/auth/ping        --> 2022/ginseckill/backend/backendAuthController.Ping (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/list  --> 2022/ginseckill/backend/backendAuthController.GoodsList (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/update --> 2022/ginseckill/backend/backendAuthController.GoodsUpdate (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/add   --> 2022/ginseckill/backend/backendAuthController.InsertGoods (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/remove --> 2022/ginseckill/backend/backendAuthController.DeleteGoodsOne (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/select --> 2022/ginseckill/backend/backendAuthController.SelectOneGoods (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/list  --> 2022/ginseckill/backend/backendAuthController.OrderList (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/update --> 2022/ginseckill/backend/backendAuthController.OrderUpdate (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/add   --> 2022/ginseckill/backend/backendAuthController.InsertOrder (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/remove --> 2022/ginseckill/backend/backendAuthController.DeleteOrderOne (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/select --> 2022/ginseckill/backend/backendAuthController.SelectOneOrder (6 handlers)
+[I][GIN-debug] Listening and serving HTTP on 0.0.0.0:8090
+[I][GIN] 2021/11/16 - 11:12:37 | 200 |     50.5369ms |   192.168.1.102 | POST     "/manager/sign/up"
+[I][GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[I][GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[I][GIN-debug] GET    /api/static/*filepath     --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[I][GIN-debug] HEAD   /api/static/*filepath     --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[I][GIN-debug] GET    /api/ping                 --> 2022/ginseckill/web/webController.Ping (5 handlers)
+[I][GIN-debug] GET    /api/auth/ping            --> 2022/ginseckill/web/webAuthController.Ping (6 handlers)
+[I][GIN-debug] GET    /manager/ping             --> 2022/ginseckill/backend/backendController.Ping (5 handlers)
+[I][GIN-debug] POST   /manager/sign/up          --> 2022/ginseckill/backend/backendController.InsertConsumer (5 handlers)
+[I][GIN-debug] GET    /manager/auth/ping        --> 2022/ginseckill/backend/backendAuthController.Ping (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/list  --> 2022/ginseckill/backend/backendAuthController.GoodsList (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/update --> 2022/ginseckill/backend/backendAuthController.GoodsUpdate (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/add   --> 2022/ginseckill/backend/backendAuthController.InsertGoods (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/remove --> 2022/ginseckill/backend/backendAuthController.DeleteGoodsOne (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/select --> 2022/ginseckill/backend/backendAuthController.SelectOneGoods (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/list  --> 2022/ginseckill/backend/backendAuthController.OrderList (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/update --> 2022/ginseckill/backend/backendAuthController.OrderUpdate (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/add   --> 2022/ginseckill/backend/backendAuthController.InsertOrder (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/remove --> 2022/ginseckill/backend/backendAuthController.DeleteOrderOne (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/select --> 2022/ginseckill/backend/backendAuthController.SelectOneOrder (6 handlers)
+[I][GIN-debug] Listening and serving HTTP on 0.0.0.0:8090
+[I][GIN] 2021/11/16 - 11:16:16 | 200 |     45.4223ms |   192.168.1.102 | POST     "/manager/sign/up"
+[I][GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[I][GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[I][GIN-debug] GET    /api/static/*filepath     --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[I][GIN-debug] HEAD   /api/static/*filepath     --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[I][GIN-debug] GET    /api/ping                 --> 2022/ginseckill/web/webController.Ping (5 handlers)
+[I][GIN-debug] GET    /api/auth/ping            --> 2022/ginseckill/web/webAuthController.Ping (6 handlers)
+[I][GIN-debug] GET    /manager/ping             --> 2022/ginseckill/backend/backendController.Ping (5 handlers)
+[I][GIN-debug] POST   /manager/sign/up          --> 2022/ginseckill/backend/backendController.InsertConsumer (5 handlers)
+[I][GIN-debug] GET    /manager/auth/ping        --> 2022/ginseckill/backend/backendAuthController.Ping (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/list  --> 2022/ginseckill/backend/backendAuthController.GoodsList (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/update --> 2022/ginseckill/backend/backendAuthController.GoodsUpdate (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/add   --> 2022/ginseckill/backend/backendAuthController.InsertGoods (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/remove --> 2022/ginseckill/backend/backendAuthController.DeleteGoodsOne (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/select --> 2022/ginseckill/backend/backendAuthController.SelectOneGoods (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/list  --> 2022/ginseckill/backend/backendAuthController.OrderList (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/update --> 2022/ginseckill/backend/backendAuthController.OrderUpdate (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/add   --> 2022/ginseckill/backend/backendAuthController.InsertOrder (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/remove --> 2022/ginseckill/backend/backendAuthController.DeleteOrderOne (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/select --> 2022/ginseckill/backend/backendAuthController.SelectOneOrder (6 handlers)
+[I][GIN-debug] Listening and serving HTTP on 0.0.0.0:8090
+[I][GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[I][GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[I][GIN-debug] GET    /api/static/*filepath     --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[I][GIN-debug] HEAD   /api/static/*filepath     --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[I][GIN-debug] GET    /api/ping                 --> 2022/ginseckill/web/webController.Ping (5 handlers)
+[I][GIN-debug] GET    /api/auth/ping            --> 2022/ginseckill/web/webAuthController.Ping (6 handlers)
+[I][GIN-debug] GET    /manager/ping             --> 2022/ginseckill/backend/backendController.Ping (5 handlers)
+[I][GIN-debug] POST   /manager/sign/up          --> 2022/ginseckill/backend/backendController.InsertConsumer (5 handlers)
+[I][GIN-debug] GET    /manager/auth/ping        --> 2022/ginseckill/backend/backendAuthController.Ping (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/list  --> 2022/ginseckill/backend/backendAuthController.GoodsList (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/update --> 2022/ginseckill/backend/backendAuthController.GoodsUpdate (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/add   --> 2022/ginseckill/backend/backendAuthController.InsertGoods (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/remove --> 2022/ginseckill/backend/backendAuthController.DeleteGoodsOne (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/select --> 2022/ginseckill/backend/backendAuthController.SelectOneGoods (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/list  --> 2022/ginseckill/backend/backendAuthController.OrderList (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/update --> 2022/ginseckill/backend/backendAuthController.OrderUpdate (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/add   --> 2022/ginseckill/backend/backendAuthController.InsertOrder (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/remove --> 2022/ginseckill/backend/backendAuthController.DeleteOrderOne (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/select --> 2022/ginseckill/backend/backendAuthController.SelectOneOrder (6 handlers)
+[I][GIN-debug] Listening and serving HTTP on 0.0.0.0:8090
+[I][GIN] 2021/11/16 - 11:23:43 | 200 |     55.1934ms |   192.168.1.102 | POST     "/manager/sign/up"
+[I][GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[I][GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[I][GIN-debug] GET    /api/static/*filepath     --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[I][GIN-debug] HEAD   /api/static/*filepath     --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[I][GIN-debug] GET    /api/ping                 --> 2022/ginseckill/web/webController.Ping (5 handlers)
+[I][GIN-debug] GET    /api/auth/ping            --> 2022/ginseckill/web/webAuthController.Ping (6 handlers)
+[I][GIN-debug] GET    /manager/ping             --> 2022/ginseckill/backend/backendController.Ping (5 handlers)
+[I][GIN-debug] POST   /manager/sign/up          --> 2022/ginseckill/backend/backendController.InsertConsumer (5 handlers)
+[I][GIN-debug] GET    /manager/auth/ping        --> 2022/ginseckill/backend/backendAuthController.Ping (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/list  --> 2022/ginseckill/backend/backendAuthController.GoodsList (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/update --> 2022/ginseckill/backend/backendAuthController.GoodsUpdate (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/add   --> 2022/ginseckill/backend/backendAuthController.InsertGoods (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/remove --> 2022/ginseckill/backend/backendAuthController.DeleteGoodsOne (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/select --> 2022/ginseckill/backend/backendAuthController.SelectOneGoods (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/list  --> 2022/ginseckill/backend/backendAuthController.OrderList (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/update --> 2022/ginseckill/backend/backendAuthController.OrderUpdate (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/add   --> 2022/ginseckill/backend/backendAuthController.InsertOrder (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/remove --> 2022/ginseckill/backend/backendAuthController.DeleteOrderOne (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/select --> 2022/ginseckill/backend/backendAuthController.SelectOneOrder (6 handlers)
+[I][GIN-debug] Listening and serving HTTP on 0.0.0.0:8090
+[I][GIN] 2021/11/16 - 11:25:40 | 200 |     48.2024ms |   192.168.1.102 | POST     "/manager/sign/up"
+[I][GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[I][GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[I][GIN-debug] GET    /api/static/*filepath     --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[I][GIN-debug] HEAD   /api/static/*filepath     --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[I][GIN-debug] GET    /api/ping                 --> 2022/ginseckill/web/webController.Ping (5 handlers)
+[I][GIN-debug] GET    /api/auth/ping            --> 2022/ginseckill/web/webAuthController.Ping (6 handlers)
+[I][GIN-debug] GET    /manager/ping             --> 2022/ginseckill/backend/backendController.Ping (5 handlers)
+[I][GIN-debug] POST   /manager/sign/up          --> 2022/ginseckill/backend/backendController.InsertConsumer (5 handlers)
+[I][GIN-debug] GET    /manager/auth/ping        --> 2022/ginseckill/backend/backendAuthController.Ping (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/list  --> 2022/ginseckill/backend/backendAuthController.GoodsList (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/update --> 2022/ginseckill/backend/backendAuthController.GoodsUpdate (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/add   --> 2022/ginseckill/backend/backendAuthController.InsertGoods (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/remove --> 2022/ginseckill/backend/backendAuthController.DeleteGoodsOne (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/select --> 2022/ginseckill/backend/backendAuthController.SelectOneGoods (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/list  --> 2022/ginseckill/backend/backendAuthController.OrderList (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/update --> 2022/ginseckill/backend/backendAuthController.OrderUpdate (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/add   --> 2022/ginseckill/backend/backendAuthController.InsertOrder (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/remove --> 2022/ginseckill/backend/backendAuthController.DeleteOrderOne (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/select --> 2022/ginseckill/backend/backendAuthController.SelectOneOrder (6 handlers)
+[I][GIN-debug] Listening and serving HTTP on 0.0.0.0:8090
+[I][GIN] 2021/11/16 - 11:32:39 | 200 |      47.972ms |   192.168.1.102 | POST     "/manager/sign/up"
+[I][GIN] 2021/11/16 - 11:33:35 | 200 |      46.648ms |   192.168.1.102 | POST     "/manager/sign/up"
+[I][GIN] 2021/11/16 - 11:33:36 | 200 |     33.3656ms |   192.168.1.102 | POST     "/manager/sign/up"
+[I][GIN] 2021/11/16 - 11:33:46 | 200 |     46.8842ms |   192.168.1.102 | POST     "/manager/sign/up"
+[I][GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[I][GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[I][GIN-debug] GET    /api/static/*filepath     --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[I][GIN-debug] HEAD   /api/static/*filepath     --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[I][GIN-debug] GET    /api/ping                 --> 2022/ginseckill/web/webController.Ping (5 handlers)
+[I][GIN-debug] GET    /api/auth/ping            --> 2022/ginseckill/web/webAuthController.Ping (6 handlers)
+[I][GIN-debug] GET    /manager/ping             --> 2022/ginseckill/backend/backendController.Ping (5 handlers)
+[I][GIN-debug] POST   /manager/sign/up          --> 2022/ginseckill/backend/backendController.InsertConsumer (5 handlers)
+[I][GIN-debug] GET    /manager/auth/ping        --> 2022/ginseckill/backend/backendAuthController.Ping (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/list  --> 2022/ginseckill/backend/backendAuthController.GoodsList (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/update --> 2022/ginseckill/backend/backendAuthController.GoodsUpdate (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/add   --> 2022/ginseckill/backend/backendAuthController.InsertGoods (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/remove --> 2022/ginseckill/backend/backendAuthController.DeleteGoodsOne (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/select --> 2022/ginseckill/backend/backendAuthController.SelectOneGoods (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/list  --> 2022/ginseckill/backend/backendAuthController.OrderList (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/update --> 2022/ginseckill/backend/backendAuthController.OrderUpdate (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/add   --> 2022/ginseckill/backend/backendAuthController.InsertOrder (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/remove --> 2022/ginseckill/backend/backendAuthController.DeleteOrderOne (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/select --> 2022/ginseckill/backend/backendAuthController.SelectOneOrder (6 handlers)
+[I][GIN-debug] Listening and serving HTTP on 0.0.0.0:8090
+[I][GIN] 2021/11/16 - 11:35:26 | 200 |     41.9775ms |   192.168.1.102 | POST     "/manager/sign/up"
+[I][GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[I][GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[I][GIN-debug] GET    /api/static/*filepath     --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[I][GIN-debug] HEAD   /api/static/*filepath     --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[I][GIN-debug] GET    /api/ping                 --> 2022/ginseckill/web/webController.Ping (5 handlers)
+[I][GIN-debug] GET    /api/auth/ping            --> 2022/ginseckill/web/webAuthController.Ping (6 handlers)
+[I][GIN-debug] GET    /manager/ping             --> 2022/ginseckill/backend/backendController.Ping (5 handlers)
+[I][GIN-debug] POST   /manager/sign/up          --> 2022/ginseckill/backend/backendController.InsertConsumer (5 handlers)
+[I][GIN-debug] GET    /manager/auth/ping        --> 2022/ginseckill/backend/backendAuthController.Ping (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/list  --> 2022/ginseckill/backend/backendAuthController.GoodsList (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/update --> 2022/ginseckill/backend/backendAuthController.GoodsUpdate (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/add   --> 2022/ginseckill/backend/backendAuthController.InsertGoods (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/remove --> 2022/ginseckill/backend/backendAuthController.DeleteGoodsOne (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/select --> 2022/ginseckill/backend/backendAuthController.SelectOneGoods (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/list  --> 2022/ginseckill/backend/backendAuthController.OrderList (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/update --> 2022/ginseckill/backend/backendAuthController.OrderUpdate (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/add   --> 2022/ginseckill/backend/backendAuthController.InsertOrder (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/remove --> 2022/ginseckill/backend/backendAuthController.DeleteOrderOne (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/select --> 2022/ginseckill/backend/backendAuthController.SelectOneOrder (6 handlers)
+[I][GIN-debug] Listening and serving HTTP on 0.0.0.0:8090
+[I][GIN] 2021/11/16 - 11:36:28 | 200 |     49.7278ms |   192.168.1.102 | POST     "/manager/sign/up"
+[I][GIN] 2021/11/16 - 11:47:54 | 200 |      30.362ms |   192.168.1.102 | POST     "/manager/sign/up"
+[I][GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[I][GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[I][GIN-debug] GET    /api/static/*filepath     --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[I][GIN-debug] HEAD   /api/static/*filepath     --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[I][GIN-debug] GET    /api/ping                 --> 2022/ginseckill/web/webController.Ping (5 handlers)
+[I][GIN-debug] GET    /api/auth/ping            --> 2022/ginseckill/web/webAuthController.Ping (6 handlers)
+[I][GIN-debug] GET    /manager/ping             --> 2022/ginseckill/backend/backendController.Ping (5 handlers)
+[I][GIN-debug] POST   /manager/sign/up          --> 2022/ginseckill/backend/backendController.InsertConsumer (5 handlers)
+[I][GIN-debug] GET    /manager/auth/ping        --> 2022/ginseckill/backend/backendAuthController.Ping (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/list  --> 2022/ginseckill/backend/backendAuthController.GoodsList (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/update --> 2022/ginseckill/backend/backendAuthController.GoodsUpdate (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/add   --> 2022/ginseckill/backend/backendAuthController.InsertGoods (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/remove --> 2022/ginseckill/backend/backendAuthController.DeleteGoodsOne (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/select --> 2022/ginseckill/backend/backendAuthController.SelectOneGoods (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/list  --> 2022/ginseckill/backend/backendAuthController.OrderList (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/update --> 2022/ginseckill/backend/backendAuthController.OrderUpdate (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/add   --> 2022/ginseckill/backend/backendAuthController.InsertOrder (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/remove --> 2022/ginseckill/backend/backendAuthController.DeleteOrderOne (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/select --> 2022/ginseckill/backend/backendAuthController.SelectOneOrder (6 handlers)
+[I][GIN-debug] Listening and serving HTTP on 0.0.0.0:8090
+[I][GIN] 2021/11/16 - 11:51:34 | 200 |     41.7948ms |   192.168.1.102 | POST     "/manager/sign/up"
+[I][GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[I][GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[I][GIN-debug] GET    /api/static/*filepath     --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[I][GIN-debug] HEAD   /api/static/*filepath     --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[I][GIN-debug] GET    /api/ping                 --> 2022/ginseckill/web/webController.Ping (5 handlers)
+[I][GIN-debug] GET    /api/auth/ping            --> 2022/ginseckill/web/webAuthController.Ping (6 handlers)
+[I][GIN-debug] GET    /manager/ping             --> 2022/ginseckill/backend/backendController.Ping (5 handlers)
+[I][GIN-debug] POST   /manager/sign/up          --> 2022/ginseckill/backend/backendController.InsertConsumer (5 handlers)
+[I][GIN-debug] GET    /manager/auth/ping        --> 2022/ginseckill/backend/backendAuthController.Ping (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/list  --> 2022/ginseckill/backend/backendAuthController.GoodsList (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/update --> 2022/ginseckill/backend/backendAuthController.GoodsUpdate (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/add   --> 2022/ginseckill/backend/backendAuthController.InsertGoods (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/remove --> 2022/ginseckill/backend/backendAuthController.DeleteGoodsOne (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/select --> 2022/ginseckill/backend/backendAuthController.SelectOneGoods (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/list  --> 2022/ginseckill/backend/backendAuthController.OrderList (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/update --> 2022/ginseckill/backend/backendAuthController.OrderUpdate (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/add   --> 2022/ginseckill/backend/backendAuthController.InsertOrder (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/remove --> 2022/ginseckill/backend/backendAuthController.DeleteOrderOne (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/select --> 2022/ginseckill/backend/backendAuthController.SelectOneOrder (6 handlers)
+[I][GIN-debug] Listening and serving HTTP on 0.0.0.0:8090
+[I][GIN] 2021/11/16 - 11:57:57 | 200 |     37.7699ms |   192.168.1.102 | POST     "/manager/sign/up"
+[I][GIN] 2021/11/16 - 11:59:34 | 200 |     38.0301ms |   192.168.1.102 | POST     "/manager/sign/up"
+[I][GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[I][GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[I][GIN-debug] GET    /api/static/*filepath     --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[I][GIN-debug] HEAD   /api/static/*filepath     --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[I][GIN-debug] GET    /api/ping                 --> 2022/ginseckill/web/webController.Ping (5 handlers)
+[I][GIN-debug] GET    /api/auth/ping            --> 2022/ginseckill/web/webAuthController.Ping (6 handlers)
+[I][GIN-debug] GET    /manager/ping             --> 2022/ginseckill/backend/backendController.Ping (5 handlers)
+[I][GIN-debug] POST   /manager/sign/up          --> 2022/ginseckill/backend/backendController.InsertConsumer (5 handlers)
+[I][GIN-debug] GET    /manager/auth/ping        --> 2022/ginseckill/backend/backendAuthController.Ping (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/list  --> 2022/ginseckill/backend/backendAuthController.GoodsList (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/update --> 2022/ginseckill/backend/backendAuthController.GoodsUpdate (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/add   --> 2022/ginseckill/backend/backendAuthController.InsertGoods (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/remove --> 2022/ginseckill/backend/backendAuthController.DeleteGoodsOne (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/select --> 2022/ginseckill/backend/backendAuthController.SelectOneGoods (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/list  --> 2022/ginseckill/backend/backendAuthController.OrderList (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/update --> 2022/ginseckill/backend/backendAuthController.OrderUpdate (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/add   --> 2022/ginseckill/backend/backendAuthController.InsertOrder (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/remove --> 2022/ginseckill/backend/backendAuthController.DeleteOrderOne (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/select --> 2022/ginseckill/backend/backendAuthController.SelectOneOrder (6 handlers)
+[I][GIN-debug] Listening and serving HTTP on 0.0.0.0:8090
+[I][GIN] 2021/11/16 - 12:02:50 | 200 |     33.3449ms |   192.168.1.102 | POST     "/manager/sign/up"
+[I][GIN] 2021/11/16 - 12:22:51 | 200 |     41.4189ms |   192.168.1.102 | POST     "/manager/sign/up"
+[I][GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[I][GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[I][GIN-debug] GET    /api/static/*filepath     --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[I][GIN-debug] HEAD   /api/static/*filepath     --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[I][GIN-debug] GET    /api/ping                 --> 2022/ginseckill/web/webController.Ping (5 handlers)
+[I][GIN-debug] GET    /api/auth/ping            --> 2022/ginseckill/web/webAuthController.Ping (6 handlers)
+[I][GIN-debug] GET    /manager/ping             --> 2022/ginseckill/backend/backendController.Ping (5 handlers)
+[I][GIN-debug] POST   /manager/sign/up          --> 2022/ginseckill/backend/backendController.InsertConsumer (5 handlers)
+[I][GIN-debug] GET    /manager/auth/ping        --> 2022/ginseckill/backend/backendAuthController.Ping (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/list  --> 2022/ginseckill/backend/backendAuthController.GoodsList (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/update --> 2022/ginseckill/backend/backendAuthController.GoodsUpdate (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/add   --> 2022/ginseckill/backend/backendAuthController.InsertGoods (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/remove --> 2022/ginseckill/backend/backendAuthController.DeleteGoodsOne (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/select --> 2022/ginseckill/backend/backendAuthController.SelectOneGoods (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/list  --> 2022/ginseckill/backend/backendAuthController.OrderList (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/update --> 2022/ginseckill/backend/backendAuthController.OrderUpdate (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/add   --> 2022/ginseckill/backend/backendAuthController.InsertOrder (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/remove --> 2022/ginseckill/backend/backendAuthController.DeleteOrderOne (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/select --> 2022/ginseckill/backend/backendAuthController.SelectOneOrder (6 handlers)
+[I][GIN-debug] Listening and serving HTTP on 0.0.0.0:8090
+[I][GIN] 2021/11/16 - 12:26:55 | 200 |     40.6223ms |   192.168.1.102 | POST     "/manager/sign/up"
+[I][GIN] 2021/11/16 - 12:27:31 | 200 |     36.2634ms |   192.168.1.102 | POST     "/manager/sign/up"
+[I][GIN] 2021/11/16 - 12:28:06 | 200 |       24.32ms |   192.168.1.102 | POST     "/manager/sign/up"
+[I][GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[I][GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[I][GIN-debug] GET    /api/static/*filepath     --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[I][GIN-debug] HEAD   /api/static/*filepath     --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[I][GIN-debug] GET    /api/ping                 --> 2022/ginseckill/web/webController.Ping (5 handlers)
+[I][GIN-debug] GET    /api/auth/ping            --> 2022/ginseckill/web/webAuthController.Ping (6 handlers)
+[I][GIN-debug] GET    /manager/ping             --> 2022/ginseckill/backend/backendController.Ping (5 handlers)
+[I][GIN-debug] POST   /manager/sign/up          --> 2022/ginseckill/backend/backendController.InsertConsumer (5 handlers)
+[I][GIN-debug] GET    /manager/auth/ping        --> 2022/ginseckill/backend/backendAuthController.Ping (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/list  --> 2022/ginseckill/backend/backendAuthController.GoodsList (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/update --> 2022/ginseckill/backend/backendAuthController.GoodsUpdate (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/add   --> 2022/ginseckill/backend/backendAuthController.InsertGoods (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/remove --> 2022/ginseckill/backend/backendAuthController.DeleteGoodsOne (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/select --> 2022/ginseckill/backend/backendAuthController.SelectOneGoods (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/list  --> 2022/ginseckill/backend/backendAuthController.OrderList (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/update --> 2022/ginseckill/backend/backendAuthController.OrderUpdate (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/add   --> 2022/ginseckill/backend/backendAuthController.InsertOrder (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/remove --> 2022/ginseckill/backend/backendAuthController.DeleteOrderOne (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/select --> 2022/ginseckill/backend/backendAuthController.SelectOneOrder (6 handlers)
+[I][GIN-debug] Listening and serving HTTP on 0.0.0.0:8090
+[I][GIN] 2021/11/16 - 12:29:33 | 200 |     61.8341ms |   192.168.1.102 | POST     "/manager/sign/up"
+[I][GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[I][GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[I][GIN-debug] GET    /api/static/*filepath     --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[I][GIN-debug] HEAD   /api/static/*filepath     --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[I][GIN-debug] GET    /api/ping                 --> 2022/ginseckill/web/webController.Ping (5 handlers)
+[I][GIN-debug] GET    /api/auth/ping            --> 2022/ginseckill/web/webAuthController.Ping (6 handlers)
+[I][GIN-debug] GET    /manager/ping             --> 2022/ginseckill/backend/backendController.Ping (5 handlers)
+[I][GIN-debug] POST   /manager/sign/up          --> 2022/ginseckill/backend/backendController.InsertConsumer (5 handlers)
+[I][GIN-debug] GET    /manager/auth/ping        --> 2022/ginseckill/backend/backendAuthController.Ping (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/list  --> 2022/ginseckill/backend/backendAuthController.GoodsList (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/update --> 2022/ginseckill/backend/backendAuthController.GoodsUpdate (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/add   --> 2022/ginseckill/backend/backendAuthController.InsertGoods (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/remove --> 2022/ginseckill/backend/backendAuthController.DeleteGoodsOne (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/select --> 2022/ginseckill/backend/backendAuthController.SelectOneGoods (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/list  --> 2022/ginseckill/backend/backendAuthController.OrderList (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/update --> 2022/ginseckill/backend/backendAuthController.OrderUpdate (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/add   --> 2022/ginseckill/backend/backendAuthController.InsertOrder (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/remove --> 2022/ginseckill/backend/backendAuthController.DeleteOrderOne (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/select --> 2022/ginseckill/backend/backendAuthController.SelectOneOrder (6 handlers)
+[I][GIN-debug] Listening and serving HTTP on 0.0.0.0:8090
+[I][GIN] 2021/11/16 - 12:31:32 | 200 |     75.9654ms |   192.168.1.102 | POST     "/manager/sign/up"
+[I][GIN] 2021/11/16 - 12:59:45 | 200 |     45.8376ms |   192.168.1.102 | POST     "/manager/sign/up"
+[I][GIN] 2021/11/16 - 13:07:11 | 200 |     46.0726ms |   192.168.1.102 | POST     "/manager/sign/up"
+[I][GIN] 2021/11/16 - 13:19:46 | 200 |     47.2137ms |   192.168.1.102 | POST     "/manager/sign/up"
+[I][GIN] 2021/11/16 - 13:23:08 | 200 |     45.8184ms |   192.168.1.102 | POST     "/manager/sign/up"
+[I][GIN] 2021/11/16 - 13:31:50 | 200 |     40.2469ms |   192.168.1.102 | POST     "/manager/sign/up"
+[I][GIN] 2021/11/16 - 13:47:37 | 200 |     41.1602ms |   192.168.1.102 | POST     "/manager/sign/up"
+[I][GIN] 2021/11/16 - 13:54:57 | 200 |     38.5322ms |   192.168.1.102 | POST     "/manager/sign/up"
+[I][GIN] 2021/11/16 - 13:59:50 | 200 |     42.5558ms |   192.168.1.102 | POST     "/manager/sign/up"
+[I][GIN] 2021/11/16 - 14:05:35 | 200 |     40.7247ms |   192.168.1.102 | POST     "/manager/sign/up"
+[I][GIN] 2021/11/16 - 14:08:56 | 204 |            0s |   192.168.1.102 | OPTIONS  "/manager/sign/up"
+[I][GIN] 2021/11/16 - 14:08:56 | 200 |     51.8335ms |   192.168.1.102 | POST     "/manager/sign/up"
+[I][GIN] 2021/11/16 - 14:10:36 | 200 |     41.3531ms |   192.168.1.102 | POST     "/manager/sign/up"
+[I][GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[I][GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[I][GIN-debug] GET    /api/static/*filepath     --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[I][GIN-debug] HEAD   /api/static/*filepath     --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[I][GIN-debug] GET    /api/ping                 --> 2022/ginseckill/web/webController.Ping (5 handlers)
+[I][GIN-debug] GET    /api/auth/ping            --> 2022/ginseckill/web/webAuthController.Ping (6 handlers)
+[I][GIN-debug] GET    /manager/ping             --> 2022/ginseckill/backend/backendController.Ping (5 handlers)
+[I][GIN-debug] POST   /manager/sign/up          --> 2022/ginseckill/backend/backendController.InsertConsumer (5 handlers)
+[I][GIN-debug] GET    /manager/auth/ping        --> 2022/ginseckill/backend/backendAuthController.Ping (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/list  --> 2022/ginseckill/backend/backendAuthController.GoodsList (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/update --> 2022/ginseckill/backend/backendAuthController.GoodsUpdate (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/add   --> 2022/ginseckill/backend/backendAuthController.InsertGoods (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/remove --> 2022/ginseckill/backend/backendAuthController.DeleteGoodsOne (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/select --> 2022/ginseckill/backend/backendAuthController.SelectOneGoods (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/list  --> 2022/ginseckill/backend/backendAuthController.OrderList (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/update --> 2022/ginseckill/backend/backendAuthController.OrderUpdate (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/add   --> 2022/ginseckill/backend/backendAuthController.InsertOrder (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/remove --> 2022/ginseckill/backend/backendAuthController.DeleteOrderOne (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/select --> 2022/ginseckill/backend/backendAuthController.SelectOneOrder (6 handlers)
+[I][GIN-debug] Listening and serving HTTP on 0.0.0.0:8090
+[I][GIN] 2021/11/16 - 14:17:12 | 200 |     43.2016ms |   192.168.1.102 | POST     "/manager/sign/up"
+[I][GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[I][GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[I][GIN-debug] GET    /api/static/*filepath     --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[I][GIN-debug] HEAD   /api/static/*filepath     --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[I][GIN-debug] GET    /api/ping                 --> 2022/ginseckill/web/webController.Ping (5 handlers)
+[I][GIN-debug] GET    /api/auth/ping            --> 2022/ginseckill/web/webAuthController.Ping (6 handlers)
+[I][GIN-debug] GET    /manager/ping             --> 2022/ginseckill/backend/backendController.Ping (5 handlers)
+[I][GIN-debug] POST   /manager/sign/up          --> 2022/ginseckill/backend/backendController.InsertConsumer (5 handlers)
+[I][GIN-debug] GET    /manager/auth/ping        --> 2022/ginseckill/backend/backendAuthController.Ping (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/list  --> 2022/ginseckill/backend/backendAuthController.GoodsList (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/update --> 2022/ginseckill/backend/backendAuthController.GoodsUpdate (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/add   --> 2022/ginseckill/backend/backendAuthController.InsertGoods (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/remove --> 2022/ginseckill/backend/backendAuthController.DeleteGoodsOne (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/select --> 2022/ginseckill/backend/backendAuthController.SelectOneGoods (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/list  --> 2022/ginseckill/backend/backendAuthController.OrderList (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/update --> 2022/ginseckill/backend/backendAuthController.OrderUpdate (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/add   --> 2022/ginseckill/backend/backendAuthController.InsertOrder (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/remove --> 2022/ginseckill/backend/backendAuthController.DeleteOrderOne (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/select --> 2022/ginseckill/backend/backendAuthController.SelectOneOrder (6 handlers)
+[I][GIN-debug] Listening and serving HTTP on 0.0.0.0:8090
+[I][GIN] 2021/11/16 - 14:17:57 | 200 |     44.6254ms |   192.168.1.102 | POST     "/manager/sign/up"
+[I][GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[I][GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[I][GIN-debug] GET    /api/static/*filepath     --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[I][GIN-debug] HEAD   /api/static/*filepath     --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[I][GIN-debug] GET    /api/ping                 --> 2022/ginseckill/web/webController.Ping (5 handlers)
+[I][GIN-debug] GET    /api/auth/ping            --> 2022/ginseckill/web/webAuthController.Ping (6 handlers)
+[I][GIN-debug] GET    /manager/ping             --> 2022/ginseckill/backend/backendController.Ping (5 handlers)
+[I][GIN-debug] POST   /manager/sign/up          --> 2022/ginseckill/backend/backendController.InsertConsumer (5 handlers)
+[I][GIN-debug] GET    /manager/auth/ping        --> 2022/ginseckill/backend/backendAuthController.Ping (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/list  --> 2022/ginseckill/backend/backendAuthController.GoodsList (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/update --> 2022/ginseckill/backend/backendAuthController.GoodsUpdate (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/add   --> 2022/ginseckill/backend/backendAuthController.InsertGoods (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/remove --> 2022/ginseckill/backend/backendAuthController.DeleteGoodsOne (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/select --> 2022/ginseckill/backend/backendAuthController.SelectOneGoods (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/list  --> 2022/ginseckill/backend/backendAuthController.OrderList (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/update --> 2022/ginseckill/backend/backendAuthController.OrderUpdate (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/add   --> 2022/ginseckill/backend/backendAuthController.InsertOrder (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/remove --> 2022/ginseckill/backend/backendAuthController.DeleteOrderOne (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/select --> 2022/ginseckill/backend/backendAuthController.SelectOneOrder (6 handlers)
+[I][GIN-debug] Listening and serving HTTP on 0.0.0.0:8090
+[I][GIN] 2021/11/16 - 14:21:50 | 200 |     43.2238ms |   192.168.1.102 | POST     "/manager/sign/up"
+[I][GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[I][GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[I][GIN-debug] GET    /api/static/*filepath     --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[I][GIN-debug] HEAD   /api/static/*filepath     --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[I][GIN-debug] GET    /api/ping                 --> 2022/ginseckill/web/webController.Ping (5 handlers)
+[I][GIN-debug] GET    /api/auth/ping            --> 2022/ginseckill/web/webAuthController.Ping (6 handlers)
+[I][GIN-debug] GET    /manager/ping             --> 2022/ginseckill/backend/backendController.Ping (5 handlers)
+[I][GIN-debug] POST   /manager/sign/up          --> 2022/ginseckill/backend/backendController.InsertConsumer (5 handlers)
+[I][GIN-debug] GET    /manager/auth/ping        --> 2022/ginseckill/backend/backendAuthController.Ping (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/list  --> 2022/ginseckill/backend/backendAuthController.GoodsList (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/update --> 2022/ginseckill/backend/backendAuthController.GoodsUpdate (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/add   --> 2022/ginseckill/backend/backendAuthController.InsertGoods (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/remove --> 2022/ginseckill/backend/backendAuthController.DeleteGoodsOne (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/select --> 2022/ginseckill/backend/backendAuthController.SelectOneGoods (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/list  --> 2022/ginseckill/backend/backendAuthController.OrderList (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/update --> 2022/ginseckill/backend/backendAuthController.OrderUpdate (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/add   --> 2022/ginseckill/backend/backendAuthController.InsertOrder (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/remove --> 2022/ginseckill/backend/backendAuthController.DeleteOrderOne (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/select --> 2022/ginseckill/backend/backendAuthController.SelectOneOrder (6 handlers)
+[I][GIN-debug] Listening and serving HTTP on 0.0.0.0:8090
+[I][GIN] 2021/11/16 - 14:33:30 | 200 |     41.2562ms |   192.168.1.102 | POST     "/manager/sign/up"
+[I][GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[I][GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[I][GIN-debug] GET    /api/static/*filepath     --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[I][GIN-debug] HEAD   /api/static/*filepath     --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[I][GIN-debug] GET    /api/ping                 --> 2022/ginseckill/web/webController.Ping (5 handlers)
+[I][GIN-debug] GET    /api/auth/ping            --> 2022/ginseckill/web/webAuthController.Ping (6 handlers)
+[I][GIN-debug] GET    /manager/ping             --> 2022/ginseckill/backend/backendController.Ping (5 handlers)
+[I][GIN-debug] POST   /manager/sign/up          --> 2022/ginseckill/backend/backendController.InsertConsumer (5 handlers)
+[I][GIN-debug] GET    /manager/auth/ping        --> 2022/ginseckill/backend/backendAuthController.Ping (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/list  --> 2022/ginseckill/backend/backendAuthController.GoodsList (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/update --> 2022/ginseckill/backend/backendAuthController.GoodsUpdate (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/add   --> 2022/ginseckill/backend/backendAuthController.InsertGoods (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/remove --> 2022/ginseckill/backend/backendAuthController.DeleteGoodsOne (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/select --> 2022/ginseckill/backend/backendAuthController.SelectOneGoods (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/list  --> 2022/ginseckill/backend/backendAuthController.OrderList (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/update --> 2022/ginseckill/backend/backendAuthController.OrderUpdate (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/add   --> 2022/ginseckill/backend/backendAuthController.InsertOrder (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/remove --> 2022/ginseckill/backend/backendAuthController.DeleteOrderOne (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/select --> 2022/ginseckill/backend/backendAuthController.SelectOneOrder (6 handlers)
+[I][GIN-debug] Listening and serving HTTP on 0.0.0.0:8090
+[I][GIN] 2021/11/16 - 14:47:15 | 200 |     48.8025ms |   192.168.1.102 | POST     "/manager/sign/up"
+[I][GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[I][GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[I][GIN-debug] GET    /api/static/*filepath     --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[I][GIN-debug] HEAD   /api/static/*filepath     --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[I][GIN-debug] GET    /api/ping                 --> 2022/ginseckill/web/webController.Ping (5 handlers)
+[I][GIN-debug] GET    /api/auth/ping            --> 2022/ginseckill/web/webAuthController.Ping (6 handlers)
+[I][GIN-debug] GET    /manager/ping             --> 2022/ginseckill/backend/backendController.Ping (5 handlers)
+[I][GIN-debug] POST   /manager/sign/up          --> 2022/ginseckill/backend/backendController.InsertConsumer (5 handlers)
+[I][GIN-debug] GET    /manager/auth/ping        --> 2022/ginseckill/backend/backendAuthController.Ping (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/list  --> 2022/ginseckill/backend/backendAuthController.GoodsList (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/update --> 2022/ginseckill/backend/backendAuthController.GoodsUpdate (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/add   --> 2022/ginseckill/backend/backendAuthController.InsertGoods (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/remove --> 2022/ginseckill/backend/backendAuthController.DeleteGoodsOne (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/select --> 2022/ginseckill/backend/backendAuthController.SelectOneGoods (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/list  --> 2022/ginseckill/backend/backendAuthController.OrderList (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/update --> 2022/ginseckill/backend/backendAuthController.OrderUpdate (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/add   --> 2022/ginseckill/backend/backendAuthController.InsertOrder (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/remove --> 2022/ginseckill/backend/backendAuthController.DeleteOrderOne (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/select --> 2022/ginseckill/backend/backendAuthController.SelectOneOrder (6 handlers)
+[I][GIN-debug] Listening and serving HTTP on 0.0.0.0:8090
+[I][GIN] 2021/11/16 - 14:52:59 | 200 |      48.042ms |   192.168.1.102 | POST     "/manager/sign/up"
+[I][GIN] 2021/11/16 - 15:03:28 | 200 |     48.9888ms |   192.168.1.102 | POST     "/manager/sign/up"
+[I][GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[I][GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[I][GIN-debug] GET    /api/static/*filepath     --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[I][GIN-debug] HEAD   /api/static/*filepath     --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[I][GIN-debug] GET    /api/ping                 --> 2022/ginseckill/web/webController.Ping (5 handlers)
+[I][GIN-debug] GET    /api/auth/ping            --> 2022/ginseckill/web/webAuthController.Ping (6 handlers)
+[I][GIN-debug] GET    /manager/ping             --> 2022/ginseckill/backend/backendController.Ping (5 handlers)
+[I][GIN-debug] POST   /manager/sign/up          --> 2022/ginseckill/backend/backendController.InsertConsumer (5 handlers)
+[I][GIN-debug] GET    /manager/auth/ping        --> 2022/ginseckill/backend/backendAuthController.Ping (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/list  --> 2022/ginseckill/backend/backendAuthController.GoodsList (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/update --> 2022/ginseckill/backend/backendAuthController.GoodsUpdate (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/add   --> 2022/ginseckill/backend/backendAuthController.InsertGoods (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/remove --> 2022/ginseckill/backend/backendAuthController.DeleteGoodsOne (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/select --> 2022/ginseckill/backend/backendAuthController.SelectOneGoods (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/list  --> 2022/ginseckill/backend/backendAuthController.OrderList (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/update --> 2022/ginseckill/backend/backendAuthController.OrderUpdate (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/add   --> 2022/ginseckill/backend/backendAuthController.InsertOrder (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/remove --> 2022/ginseckill/backend/backendAuthController.DeleteOrderOne (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/select --> 2022/ginseckill/backend/backendAuthController.SelectOneOrder (6 handlers)
+[I][GIN-debug] Listening and serving HTTP on 0.0.0.0:8090
+[I][GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[I][GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[I][GIN-debug] GET    /api/static/*filepath     --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[I][GIN-debug] HEAD   /api/static/*filepath     --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[I][GIN-debug] GET    /api/ping                 --> 2022/ginseckill/web/webController.Ping (5 handlers)
+[I][GIN-debug] GET    /api/auth/ping            --> 2022/ginseckill/web/webAuthController.Ping (6 handlers)
+[I][GIN-debug] GET    /manager/ping             --> 2022/ginseckill/backend/backendController.Ping (5 handlers)
+[I][GIN-debug] POST   /manager/sign/up          --> 2022/ginseckill/backend/backendController.InsertConsumer (5 handlers)
+[I][GIN-debug] GET    /manager/auth/ping        --> 2022/ginseckill/backend/backendAuthController.Ping (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/list  --> 2022/ginseckill/backend/backendAuthController.GoodsList (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/update --> 2022/ginseckill/backend/backendAuthController.GoodsUpdate (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/add   --> 2022/ginseckill/backend/backendAuthController.InsertGoods (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/remove --> 2022/ginseckill/backend/backendAuthController.DeleteGoodsOne (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/select --> 2022/ginseckill/backend/backendAuthController.SelectOneGoods (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/list  --> 2022/ginseckill/backend/backendAuthController.OrderList (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/update --> 2022/ginseckill/backend/backendAuthController.OrderUpdate (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/add   --> 2022/ginseckill/backend/backendAuthController.InsertOrder (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/remove --> 2022/ginseckill/backend/backendAuthController.DeleteOrderOne (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/select --> 2022/ginseckill/backend/backendAuthController.SelectOneOrder (6 handlers)
+[I][GIN-debug] Listening and serving HTTP on 0.0.0.0:8090
+[I][GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[I][GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[I][GIN-debug] GET    /api/static/*filepath     --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[I][GIN-debug] HEAD   /api/static/*filepath     --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[I][GIN-debug] GET    /api/ping                 --> 2022/ginseckill/web/webController.Ping (5 handlers)
+[I][GIN-debug] GET    /api/auth/ping            --> 2022/ginseckill/web/webAuthController.Ping (6 handlers)
+[I][GIN-debug] GET    /manager/ping             --> 2022/ginseckill/backend/backendController.Ping (5 handlers)
+[I][GIN-debug] POST   /manager/sign/up          --> 2022/ginseckill/backend/backendController.InsertConsumer (5 handlers)
+[I][GIN-debug] GET    /manager/auth/ping        --> 2022/ginseckill/backend/backendAuthController.Ping (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/list  --> 2022/ginseckill/backend/backendAuthController.GoodsList (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/update --> 2022/ginseckill/backend/backendAuthController.GoodsUpdate (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/add   --> 2022/ginseckill/backend/backendAuthController.InsertGoods (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/remove --> 2022/ginseckill/backend/backendAuthController.DeleteGoodsOne (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/select --> 2022/ginseckill/backend/backendAuthController.SelectOneGoods (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/list  --> 2022/ginseckill/backend/backendAuthController.OrderList (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/update --> 2022/ginseckill/backend/backendAuthController.OrderUpdate (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/add   --> 2022/ginseckill/backend/backendAuthController.InsertOrder (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/remove --> 2022/ginseckill/backend/backendAuthController.DeleteOrderOne (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/select --> 2022/ginseckill/backend/backendAuthController.SelectOneOrder (6 handlers)
+[I][GIN-debug] Listening and serving HTTP on 0.0.0.0:8090
+[I][GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[I][GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[I][GIN-debug] GET    /api/static/*filepath     --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[I][GIN-debug] HEAD   /api/static/*filepath     --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[I][GIN-debug] GET    /api/ping                 --> 2022/ginseckill/web/webController.Ping (5 handlers)
+[I][GIN-debug] GET    /api/auth/ping            --> 2022/ginseckill/web/webAuthController.Ping (6 handlers)
+[I][GIN-debug] GET    /manager/ping             --> 2022/ginseckill/backend/backendController.Ping (5 handlers)
+[I][GIN-debug] POST   /manager/sign/up          --> 2022/ginseckill/backend/backendController.InsertConsumer (5 handlers)
+[I][GIN-debug] GET    /manager/auth/ping        --> 2022/ginseckill/backend/backendAuthController.Ping (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/list  --> 2022/ginseckill/backend/backendAuthController.GoodsList (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/update --> 2022/ginseckill/backend/backendAuthController.GoodsUpdate (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/add   --> 2022/ginseckill/backend/backendAuthController.InsertGoods (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/remove --> 2022/ginseckill/backend/backendAuthController.DeleteGoodsOne (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/select --> 2022/ginseckill/backend/backendAuthController.SelectOneGoods (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/list  --> 2022/ginseckill/backend/backendAuthController.OrderList (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/update --> 2022/ginseckill/backend/backendAuthController.OrderUpdate (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/add   --> 2022/ginseckill/backend/backendAuthController.InsertOrder (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/remove --> 2022/ginseckill/backend/backendAuthController.DeleteOrderOne (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/select --> 2022/ginseckill/backend/backendAuthController.SelectOneOrder (6 handlers)
+[I][GIN-debug] Listening and serving HTTP on 0.0.0.0:8090
+[I][GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[I][GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[I][GIN-debug] GET    /api/static/*filepath     --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[I][GIN-debug] HEAD   /api/static/*filepath     --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[I][GIN-debug] GET    /api/ping                 --> 2022/ginseckill/web/webController.Ping (5 handlers)
+[I][GIN-debug] GET    /api/auth/ping            --> 2022/ginseckill/web/webAuthController.Ping (6 handlers)
+[I][GIN-debug] GET    /manager/ping             --> 2022/ginseckill/backend/backendController.Ping (5 handlers)
+[I][GIN-debug] POST   /manager/sign/up          --> 2022/ginseckill/backend/backendController.InsertConsumer (5 handlers)
+[I][GIN-debug] GET    /manager/auth/ping        --> 2022/ginseckill/backend/backendAuthController.Ping (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/list  --> 2022/ginseckill/backend/backendAuthController.GoodsList (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/update --> 2022/ginseckill/backend/backendAuthController.GoodsUpdate (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/add   --> 2022/ginseckill/backend/backendAuthController.InsertGoods (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/remove --> 2022/ginseckill/backend/backendAuthController.DeleteGoodsOne (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/select --> 2022/ginseckill/backend/backendAuthController.SelectOneGoods (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/list  --> 2022/ginseckill/backend/backendAuthController.OrderList (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/update --> 2022/ginseckill/backend/backendAuthController.OrderUpdate (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/add   --> 2022/ginseckill/backend/backendAuthController.InsertOrder (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/remove --> 2022/ginseckill/backend/backendAuthController.DeleteOrderOne (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/select --> 2022/ginseckill/backend/backendAuthController.SelectOneOrder (6 handlers)
+[I][GIN-debug] Listening and serving HTTP on 0.0.0.0:8090
+[I][GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[I][GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[I][GIN-debug] GET    /api/static/*filepath     --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[I][GIN-debug] HEAD   /api/static/*filepath     --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[I][GIN-debug] GET    /api/ping                 --> 2022/ginseckill/web/webController.Ping (5 handlers)
+[I][GIN-debug] GET    /api/auth/ping            --> 2022/ginseckill/web/webAuthController.Ping (6 handlers)
+[I][GIN-debug] GET    /manager/ping             --> 2022/ginseckill/backend/backendController.Ping (5 handlers)
+[I][GIN-debug] POST   /manager/sign/up          --> 2022/ginseckill/backend/backendController.InsertConsumer (5 handlers)
+[I][GIN-debug] GET    /manager/auth/ping        --> 2022/ginseckill/backend/backendAuthController.Ping (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/list  --> 2022/ginseckill/backend/backendAuthController.GoodsList (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/update --> 2022/ginseckill/backend/backendAuthController.GoodsUpdate (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/add   --> 2022/ginseckill/backend/backendAuthController.InsertGoods (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/remove --> 2022/ginseckill/backend/backendAuthController.DeleteGoodsOne (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/select --> 2022/ginseckill/backend/backendAuthController.SelectOneGoods (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/list  --> 2022/ginseckill/backend/backendAuthController.OrderList (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/update --> 2022/ginseckill/backend/backendAuthController.OrderUpdate (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/add   --> 2022/ginseckill/backend/backendAuthController.InsertOrder (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/remove --> 2022/ginseckill/backend/backendAuthController.DeleteOrderOne (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/select --> 2022/ginseckill/backend/backendAuthController.SelectOneOrder (6 handlers)
+[I][GIN-debug] Listening and serving HTTP on 0.0.0.0:8090
+[I][GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[I][GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[I][GIN-debug] GET    /api/static/*filepath     --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[I][GIN-debug] HEAD   /api/static/*filepath     --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[I][GIN-debug] GET    /api/ping                 --> 2022/ginseckill/web/webController.Ping (5 handlers)
+[I][GIN-debug] GET    /api/auth/ping            --> 2022/ginseckill/web/webAuthController.Ping (6 handlers)
+[I][GIN-debug] GET    /manager/ping             --> 2022/ginseckill/backend/backendController.Ping (5 handlers)
+[I][GIN-debug] POST   /manager/sign/up          --> 2022/ginseckill/backend/backendController.InsertConsumer (5 handlers)
+[I][GIN-debug] GET    /manager/auth/ping        --> 2022/ginseckill/backend/backendAuthController.Ping (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/list  --> 2022/ginseckill/backend/backendAuthController.GoodsList (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/update --> 2022/ginseckill/backend/backendAuthController.GoodsUpdate (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/add   --> 2022/ginseckill/backend/backendAuthController.InsertGoods (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/remove --> 2022/ginseckill/backend/backendAuthController.DeleteGoodsOne (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/select --> 2022/ginseckill/backend/backendAuthController.SelectOneGoods (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/list  --> 2022/ginseckill/backend/backendAuthController.OrderList (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/update --> 2022/ginseckill/backend/backendAuthController.OrderUpdate (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/add   --> 2022/ginseckill/backend/backendAuthController.InsertOrder (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/remove --> 2022/ginseckill/backend/backendAuthController.DeleteOrderOne (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/select --> 2022/ginseckill/backend/backendAuthController.SelectOneOrder (6 handlers)
+[I][GIN-debug] Listening and serving HTTP on 0.0.0.0:8090
+[I][GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[I][GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[I][GIN-debug] GET    /api/static/*filepath     --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[I][GIN-debug] HEAD   /api/static/*filepath     --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[I][GIN-debug] GET    /api/ping                 --> 2022/ginseckill/web/webController.Ping (5 handlers)
+[I][GIN-debug] GET    /api/auth/ping            --> 2022/ginseckill/web/webAuthController.Ping (6 handlers)
+[I][GIN-debug] GET    /manager/ping             --> 2022/ginseckill/backend/backendController.Ping (5 handlers)
+[I][GIN-debug] POST   /manager/sign/up          --> 2022/ginseckill/backend/backendController.InsertConsumer (5 handlers)
+[I][GIN-debug] GET    /manager/auth/ping        --> 2022/ginseckill/backend/backendAuthController.Ping (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/list  --> 2022/ginseckill/backend/backendAuthController.GoodsList (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/update --> 2022/ginseckill/backend/backendAuthController.GoodsUpdate (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/add   --> 2022/ginseckill/backend/backendAuthController.InsertGoods (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/remove --> 2022/ginseckill/backend/backendAuthController.DeleteGoodsOne (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/select --> 2022/ginseckill/backend/backendAuthController.SelectOneGoods (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/list  --> 2022/ginseckill/backend/backendAuthController.OrderList (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/update --> 2022/ginseckill/backend/backendAuthController.OrderUpdate (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/add   --> 2022/ginseckill/backend/backendAuthController.InsertOrder (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/remove --> 2022/ginseckill/backend/backendAuthController.DeleteOrderOne (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/select --> 2022/ginseckill/backend/backendAuthController.SelectOneOrder (6 handlers)
+[I][GIN-debug] Listening and serving HTTP on 0.0.0.0:8090
+[I][GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[I][GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[I][GIN-debug] GET    /api/static/*filepath     --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[I][GIN-debug] HEAD   /api/static/*filepath     --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[I][GIN-debug] GET    /api/ping                 --> 2022/ginseckill/web/webController.Ping (5 handlers)
+[I][GIN-debug] GET    /api/auth/ping            --> 2022/ginseckill/web/webAuthController.Ping (6 handlers)
+[I][GIN-debug] GET    /manager/ping             --> 2022/ginseckill/backend/backendController.Ping (5 handlers)
+[I][GIN-debug] POST   /manager/sign/up          --> 2022/ginseckill/backend/backendController.InsertConsumer (5 handlers)
+[I][GIN-debug] GET    /manager/auth/ping        --> 2022/ginseckill/backend/backendAuthController.Ping (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/list  --> 2022/ginseckill/backend/backendAuthController.GoodsList (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/update --> 2022/ginseckill/backend/backendAuthController.GoodsUpdate (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/add   --> 2022/ginseckill/backend/backendAuthController.InsertGoods (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/remove --> 2022/ginseckill/backend/backendAuthController.DeleteGoodsOne (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/select --> 2022/ginseckill/backend/backendAuthController.SelectOneGoods (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/list  --> 2022/ginseckill/backend/backendAuthController.OrderList (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/update --> 2022/ginseckill/backend/backendAuthController.OrderUpdate (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/add   --> 2022/ginseckill/backend/backendAuthController.InsertOrder (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/remove --> 2022/ginseckill/backend/backendAuthController.DeleteOrderOne (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/select --> 2022/ginseckill/backend/backendAuthController.SelectOneOrder (6 handlers)
+[I][GIN-debug] Listening and serving HTTP on 0.0.0.0:8090
+[I][GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[I][GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[I][GIN-debug] GET    /api/static/*filepath     --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[I][GIN-debug] HEAD   /api/static/*filepath     --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[I][GIN-debug] GET    /api/ping                 --> 2022/ginseckill/web/webController.Ping (5 handlers)
+[I][GIN-debug] GET    /api/auth/ping            --> 2022/ginseckill/web/webAuthController.Ping (6 handlers)
+[I][GIN-debug] GET    /manager/ping             --> 2022/ginseckill/backend/backendController.Ping (5 handlers)
+[I][GIN-debug] POST   /manager/sign/up          --> 2022/ginseckill/backend/backendController.InsertConsumer (5 handlers)
+[I][GIN-debug] GET    /manager/auth/ping        --> 2022/ginseckill/backend/backendAuthController.Ping (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/list  --> 2022/ginseckill/backend/backendAuthController.GoodsList (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/update --> 2022/ginseckill/backend/backendAuthController.GoodsUpdate (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/add   --> 2022/ginseckill/backend/backendAuthController.InsertGoods (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/remove --> 2022/ginseckill/backend/backendAuthController.DeleteGoodsOne (6 handlers)
+[I][GIN-debug] POST   /manager/auth/goods/select --> 2022/ginseckill/backend/backendAuthController.SelectOneGoods (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/list  --> 2022/ginseckill/backend/backendAuthController.OrderList (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/update --> 2022/ginseckill/backend/backendAuthController.OrderUpdate (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/add   --> 2022/ginseckill/backend/backendAuthController.InsertOrder (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/remove --> 2022/ginseckill/backend/backendAuthController.DeleteOrderOne (6 handlers)
+[I][GIN-debug] POST   /manager/auth/order/select --> 2022/ginseckill/backend/backendAuthController.SelectOneOrder (6 handlers)
+[I][GIN-debug] Listening and serving HTTP on 0.0.0.0:8090

@@ -1,0 +1,67 @@
+{
+  "listen": "0.0.0.0:8090",
+  "website": {
+    "website_name": "ginseckill",
+    "website_desc": "gin框架秒杀项目",
+    "website_mode": "release",
+    "website_log": "logs",
+    "cors_example": "http://localhost:8090",
+    "stdout": true
+  },
+  "session": {
+    "session_name": "yunsong_session",
+    "session_secret": "yunsong",
+    "session_mode": "redis",
+    "session_size": 10,
+    "session_maxage": 604800
+  },
+  "mysql": {
+    "mysql_driver": "mysql",
+    "mysql_addr": "root@tcp(127.0.0.1:3306)/ginseckill?charset=utf8",
+    "mysql_show": true
+  },
+  "redis": {
+    "redis_addr": "127.0.0.1:6379",
+    "redis_pwd": "",
+    "redis_db": 1,
+    "redis_hold": 604800
+  },
+  "rabbitmq": {
+    "rabbitmq_addr": "amqp://root:root@192.168.1.102:5672/imooc"
+  },
+  "email": {
+    "from_email": "tiandali13@163.com",
+    "smtp_addr": "smtp.163.com",
+    "smtp_port": "25",
+    "smtp_pass": "BWYYDQURPFMTOEZR",
+    "email_subject": "测试发送邮件"
+  },
+  "jwt": {
+    "jwt_key": "yunsong",
+    "issuer": "abc.com",
+    "exp_time": 7
+  },
+  "alisms": {
+    "sms_name": "测试名称",
+    "template_code": "sss",
+    "app_key": "id",
+    "app_secret": "secret",
+    "region_id": "cn-hangzhou",
+    "tpl_id"    : "yunsong-sms-id",
+    "key"   : "yunsong-sms-secret"
+  },
+  "etcd": {
+    "etcd_addr": "127.0.0.1:2379,192.168.1.102:2397",
+    "etcd_timeout": 5
+  },
+  "kafka": {
+    "kafka_addr": "127.0.0.1:9092",
+    "kafka_topic": "testdemo"
+  },
+  "elastic": {
+    "es_addr": "http://127.0.0.1:9200/"
+  },
+  "tail": {
+    "channel_size": 1000
+  }
+}
